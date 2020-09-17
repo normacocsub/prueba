@@ -1,0 +1,42 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    
+    <div class="header">
+        <h1> Pulsaciones Web</h1>
+        <h2>Este sitio permite Calcular las pulsaciones</h2>
+    </div>
+    <div class="topnav">
+
+        <a href="index.html">Inicio</a>
+        <a href="registro.html">Registro</a>
+        <a href="consulta.html">Consulta</a>
+
+    </div>
+
+  
+    <h2 id="titulo">Registro de pulsaciones</h2>
+<div class="forms">
+        <form id="formularioRegistro">
+            <label>Identificacion</label>
+            <input type="text" id="identificacion"><br>
+            <label>Nombre</label>
+            <input type="text" id="nombre"><br>
+            <label>Edad</label>
+            <input type="number" id="edad"><br>
+            <label>Genero</label><br>
+            <select id="sexo">
+                <option value="Femanino">Femenino</option>
+                <option value="Masculino">Masculino</option>
+            </select><br>
+            <input type="number" id="pulsacion"><br>
+            <input id="btnEnviar" type="button"  value="Calcular" onclick="guardarPersona()">
+            <script type=text/javascript  src="registro.js">  </script>
+</div>
+</body>
+</html>
